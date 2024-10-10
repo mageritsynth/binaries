@@ -1,0 +1,22 @@
+{
+    "metro" : {
+        "name" : "Metro",
+        "chip" : "esp32"
+    },
+    "laniakea" : {
+        "name" : "Laniakea",
+        "chip" : "esp32"
+    },
+    "kairos" : {
+        "name" : "Kairos",
+        "chip" : "esp32s3"
+    },
+    "isotope" : {
+        "name" : "Isotope",
+        "chip" : "esp32"
+    },
+    "kolora" : {
+        "name" : "Kolora",
+        "chip" : "rp2040"
+    }
+}
