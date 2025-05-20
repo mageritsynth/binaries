@@ -1,2 +1,0 @@
-
-    procesador = modulo[2]
