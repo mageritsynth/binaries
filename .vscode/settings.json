@@ -1,0 +1,6 @@
+{
+    "idf.port": "/dev/tty.usbmodem23301",
+    "idf.espIdfPath": "/Volumes/PortableSSD/MAGERIT/04_CODIGOS/01_VSCODE/esp/v5.5/esp-idf",
+    "idf.toolsPath": "/Users/magerit/.espressif",
+    "idf.pythonInstallPath": "/usr/local/bin/python"
+}
