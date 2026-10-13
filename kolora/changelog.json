@@ -1,0 +1,17 @@
+{
+  "v1.0": {
+    "date": "2024-11-07",
+    "es": "Lanzamiento del firmware y del módulo.",
+    "en": "Firmware & module release."
+  },
+  "v1.1": {
+    "date": "2026-08-18",
+    "es": "Oscilador digital y lectura V/OCT mejorados.",
+    "en": "Improved digital oscillator and V/OCT tracking"
+  },
+  "v1.2": {
+    "date": "2026-10-13",
+    "es": "Oscilador digital aumentado a 48khz. Mejoras de rendimiento. Correcciones puntuales de errores.",
+    "en": "Digital oscillator upgraded to 48 kHz. Performance improvements. Minor bug fixes."
+  }
+}

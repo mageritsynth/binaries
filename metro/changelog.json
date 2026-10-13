@@ -1,0 +1,82 @@
+{
+  "v1.0": {
+    "date": "2022-02-16",
+    "es": "Lanzamiento del firmware y del módulo.",
+    "en": "Firmware and module release."
+  },
+  "v1.1": {
+    "date": "2022-03-02",
+    "es": "Nueva Entrada de Reloj Externo. Nueva opción de reseteo individual de las secuencias. Mejoras en la UI del secuenciador. Correcciones de errores y mejora general del rendimiento.",
+    "en": "New External Clock Input. New option for individual sequence reset. UI improvements in the sequencer. Bug fixes and overall performance improvement."
+  },
+  "v2.0": {
+    "date": "2022-04-03",
+    "es": "Cambios en la UI al conectar un reloj externo. Aumentado el rendimiento, resolución y estabilidad del “timer” que controla el secuenciador. Nueva opción de reseteo global de todos los secuenciadores mediante las entradas TRIGGER (configurable en el menú ASSIGN). El volumen y paneo de cada instrumento puede ser asignado a cada potenciómetro y entrada CV. Menú restablecimiento del dispositivo añadido. Corregido error por el cual el paneo L y R funcionaban al revés. Volumen global incrementado. Nuevas funciones en el menú efectos. Correcciones de otros bugs puntuales.",
+    "en": "Fixed the external clock input tempo detection issue. UI changes while connecting an external clock. Increased the performance, resolution and stability of the “timer” which controls the sequencer. New global reset option for all sequencers through the TRIGGER inputs (configurable via ASSIGN menu). The volume and panning of each instrument can be assigned to any knob and CV input. Added the Factory Reset menu. Fixed inverted L & R panning. Global volume increased. New Effects Features. Other bug fixes."
+  },
+  "v2.5": {
+    "date": "2022-04-27",
+    "es": "Nuevo autoreseteo (en el modo External Clock Sync), diversas mejoras en la UI.",
+    "en": "New autoreset (in External Clock Sync mode), some UI changes."
+  },
+  "v2.6": {
+    "date": "2022-05-13",
+    "es": "Mejorada la sincronización externa. Ahora el potenciómetro 2 está dedicado exclusivamente al control del tempo en cualquier pantalla. Cambios en la UI. Correcciones de otros errores.",
+    "en": "Sync mode improved. Potentiometer 2 dedicated exclusively to tempo configuration (in all screens). UI changes. Other bug fixes."
+  },
+  "v2.7": {
+    "date": "2022-06-04",
+    "es": "Mejora de rendimiento. Error de guardado múltiple corregido. Corrección de bugs puntuales. Añadida explicación de la sincronización con reloj externo en el manual.",
+    "en": "Performance improvement. Fixed instrument saving bug. Other bug fixes. Explained external clock sync mode in the manual."
+  },
+  "v2.8": {
+    "date": "2022-10-01",
+    "es": "Nueva pantalla mezclador. Nueva pantalla de calibración para las entradas CV. Mejora en la precisión.",
+    "en": "New mixer menu. New CV calibration feature. Allows better accuracy."
+  },
+  "v3.0": {
+    "date": "2023-02-01",
+    "es": "Nuevo modo de sincronización de reloj externo: el clásico de 1 beat y el de 1/16 (4ppqn). Ajustes y mejora en la precisión del reloj interno y externo. Nuevos ratios para las secuencias. Nuevo menú de efectos con nuevos procesos: Overdrive y BitCrusher. Eco y Reverb mejorados. Algoritmos de los Toms reescritos. El botón TRIG es ahora asignable. Ahora se puede asignar el modo Random en las entradas TRIG. El mezclador tiene control CV. Otras correcciones de errores.",
+    "en": "New external clock input mode: the legacy one (1 clock per pulse) and the 1/16 (4ppqn) mode. Improvements in both internal and external clocks. New sequencer rates. New effects menu with two new audio processors: Overdrive and BitCrusher. Echo and Reverb improved. Toms’ algorithms rewritten. TRIG button is assignable now. Now you can assign the Random mode to the TRIG inputs. Mixer has CV control. Other bug fixes."
+  },
+  "v4.0": {
+    "date": "2024-04-24",
+    "es": "Metro reescrito desde cero. Mejoras en el rendimiento, lectura de potenciómetros y la interfaz. 5 instrumentos nuevos: CAMPANAS, CUERDAS B, CLAVES, SWEEP y CHIP. Asignación de parámetros más sencilla. Secuenciadores reescritos y con una UI más intuitiva y completa.",
+    "en": "Metro rewritten from scratch. Improvements in performance, potentiometer reading and interface. 5 new instruments: BELLS, B-STEPS, KEYS, SWEEP and CHIP. Easier parameter assignment. Sequencers rewritten and with a more intuitive and complete UI."
+  },
+  "v4.1": {
+    "date": "2024-10-09",
+    "es": "Correcciones puntuales de rendimiento.",
+    "en": "Minor performance fixes."
+  },
+  "v4.2": {
+    "date": "2024-11-07",
+    "es": "Correcciones puntuales de rendimiento.",
+    "en": "Minor performance fixes."
+  },
+  "v4.3": {
+    "date": "2025-07-11",
+    "es": "Añadido el modo Trigger Accent, corregido el destino ALL en el canal de trigger, y mejoras en el volumen, el paneo y el efecto de eco.",
+    "en": "Added Trigger Accent mode, fixed ALL destination in trigger channel, and improved volume, pan, and echo FX."
+  },
+  "v4.4": {
+    "date": "2026-03-05",
+    "es": "Añadido el modo Trigger Accent, corregido el destino ALL en el canal de trigger, y mejoras en el volumen, el paneo y el efecto de eco.",
+    "en": "Added Trigger Accent mode, fixed ALL destination in trigger channel, and improved volume, pan, and echo FX."
+  },
+  "v5.0": {
+    "date": "2026-07-10",
+    "es": "Aumentada la frecuencia de muestreo a 48 kHz, nuevos algoritmos de instrumentos y mejoras de rendimiento, estabilidad y calidad de audio.",
+    "en": "Increased sample rate to 48 kHz, new instrument algorithms, and improved performance, stability, and audio quality."
+  },
+  "v5.1": {
+    "date": "2026-08-18",
+    "es": "Mejora de errores puntuales y de rendimiento.",
+    "en": "Minor bug fixes and performance improvements."
+  },
+  "v5.2": {
+    "date": "2026-08-24",
+    "es": "Mejora de lectura en las entradas CV",
+    "en": "CV inputs reading improved"
+  }
+}

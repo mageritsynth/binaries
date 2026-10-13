@@ -1,0 +1,102 @@
+{
+  "v1.0": {
+    "date": "2022-09-15",
+    "es": "Lanzamiento del firmware y del módulo.",
+    "en": "Firmware & module release."
+  },
+  "v1.1": {
+    "date": "2022-09-25",
+    "es": "Correcciones de ruidos, estabilidad y modo de calibración mejorado.",
+    "en": "Noises and stability fixes. Improved calibration mode."
+  },
+  "v1.3": {
+    "date": "2022-10-27",
+    "es": "Correcciones de ruidos, rendimiento, y estabilidad.",
+    "en": "Noises, stability and performance fixes."
+  },
+  "v1.4": {
+    "date": "2022-11-08",
+    "es": "Reducción de ruidos en las frecuencias más agudas.",
+    "en": "Hi-freq noises reduction."
+  },
+  "v1.5": {
+    "date": "2022-11-13",
+    "es": "Reducción de ruidos en las frecuencias más agudas. Solucionado un error que provocaba el auto-reinicio del módulo. Nuevos algoritmos del wavefolder y del filtro.",
+    "en": "Hi-freq noises reduction. Solved a crash issue. New wavefolder & filter algorithms."
+  },
+  "v1.6": {
+    "date": "2022-12-20",
+    "es": "Nuevo modo para restablecer de fábrica el módulo. Ahora es posible elegir qué calibrar. Otras correcciones de errores y mejoras de rendimiento.",
+    "en": "New factory reset function. Now you can choose what to calibrate. Other bug fixes."
+  },
+  "v2.0": {
+    "date": "2023-02-04",
+    "es": "Ahora es posible cargar tu banco de ondas favoritas a través del Magerit Updater (v2 en adelante). Nuevas ondas por defecto. Tablas e imágenes dibujadas en el manual. La función del knob COLOR ha sido reescrita: LPF y overdrive mejorados con un control armónico más limpio. Algoritmos de cuerda y oscilador armónico optimizados. Latencia de las entradas V/OCT y EXCITER eliminadas. Lectura de voltaje en la entrada EXCITER mejorada. Nuevos modo Trigger y Envolvente en el EXCITER para la cuerda. Correcciones de errores, reestructuración del código y mejoras de rendimiento.",
+    "en": "Now, it is possible to load your favorite bank of waves via the Magerit Updater (v2 and upper). New default waves. The tables are drawn in the manual. The COLOR knob function has been rewritten: LPF and overdrive improved and cleaner harmonic control. V/OCT input latency removed. Optimized string and harmonic oscillator algorithms. New Trigger and Envelope modes in the EXCITER for the string. Other bug fixes, code restructuring and performance improvements."
+  },
+  "v2.1": {
+    "date": "2023-02-12",
+    "es": "Correcciones en el resonador y en el overdrive. Latencia de la entrada V/OCT eliminada.",
+    "en": "Overdrive and resonator fixes. Removed the V/OCT latency."
+  },
+  "v2.2": {
+    "date": "2023-11-20",
+    "es": "Bug de ruidos esporádicos (con el exciter conectado) solucionado. Añadido un Fade-in de audio durante el inicio.",
+    "en": "Short dropouts bug (while exciter patched) fixed. Startup audio fade-in implemented."
+  },
+  "v2.3": {
+    "date": "2024-02-12",
+    "es": "Sonido distorsionado en cluster de wavetables corregido. El nivel de volumen del EXCITER ha sido aumentado para igualar el volumen máximo cuando no está conectado. Otras correcciones de errores.",
+    "en": "Distorted sound in the wavetable cluster fixed. EXCITER volume level increased to match the maximum volume when unpatched. Other bug fixes."
+  },
+  "v2.4": {
+    "date": "2024-03-09",
+    "es": "Nuevo control de volumen.",
+    "en": "New volume control."
+  },
+  "v2.5": {
+    "date": "2024-03-19",
+    "es": "Volúmenes ajustados y equilibrados. Latencia reducida a la mitad. Distorsiones mejoradas. Varios cambios y mejoras de rendimiento.",
+    "en": "Adjusted and balanced volumes. Reduced latency by half. Improved distortions. Several performance changes and improvements."
+  },
+  "v2.8": {
+    "date": "2024-03-24",
+    "es": "Oscilador aditivo mejorado.",
+    "en": "Improved additive oscillator."
+  },
+  "v3.0": {
+    "date": "2025-11-07",
+    "es": "Sample rate aumentado de 44,1kHz a 48kHz. Mejora del rendimiento general. Mejora de la lectura V/OCT. Mayor precisión del trigger y problema de trigger “drops” eliminado. Estabilidad del volumen mejorada. Motor de cuerdas y resonador reescritos. Resonador ampliado de 12 a 32 modos. Nuevo overdrive más potente.",
+    "en": "Sample rate increased from 44.1kHz to 48kHz. Improved overall performance. Better V/OCT tracking. Higher trigger accuracy and trigger “short drops” issue fixed. Improved volume stability. String engine and resonator rewritten. Resonator expanded from 12 to 32 modes. New, more powerful overdrive."
+  },
+  "v3.1": {
+    "date": "2026-05-24",
+    "es": "Pequeñas mejoras de errores.",
+    "en": "Minor bug fixes."
+  },
+  "v3.2": {
+    "date": "2026-06-23",
+    "es": "Pequeñas mejoras de errores.",
+    "en": "Minor bug fixes."
+  },
+  "v3.3": {
+    "date": "2026-07-22",
+    "es": "Corregido el reseteo de fábrica.",
+    "en": "Fixed factory reset."
+  },
+  "v3.4": {
+    "date": "2026-08-18",
+    "es": "Mapa de particiones corregido",
+    "en": "Partitions map corrected"
+  },
+  "v3.5": {
+    "date": "2026-08-19",
+    "es": "Precisión de calibración V/OCT mejorada. Lectura de umbrales de normalización de CV más fiable. Añadida robustez frente a lecturas fantasma por UART.",
+    "en": "Improved V/OCT calibration accuracy. More reliable CV normalization threshold reading. Added robustness against phantom UART readings."
+  },
+  "v3.6": {
+    "date": "2026-08-26",
+    "es": "Mejora en la calibración y los umbrales de normalización de jack",
+    "en": "Improvements to jack calibration and normalisation thresholds"
+  }
+}

@@ -1,0 +1,26 @@
+{
+    "metro" : {
+        "name" : "Metro",
+        "chip" : "esp32",
+        "manual_url" : "https://magerit.es/cdn/shop/files/Magerit-Metro.pdf"
+    },
+    "laniakea" : {
+        "name" : "Laniakea",
+        "chip" : "esp32",
+        "manual_url" : "https://magerit.es/cdn/shop/files/Magerit-Laniakea.pdf"
+    },
+    "kairos" : {
+        "name" : "Kairos",
+        "chip" : "esp32s3",
+        "manual_url" : "https://magerit.es/cdn/shop/files/Magerit-Kairos.pdf"
+    },
+    "isotope" : {
+        "name" : "Isotope",
+        "chip" : "esp32"
+    },
+    "kolora" : {
+        "name" : "Kolora",
+        "chip" : "rp2040",
+        "manual_url" : "https://magerit.es/cdn/shop/files/Magerit-Kolora.pdf"
+    }
+}

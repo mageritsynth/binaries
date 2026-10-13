@@ -1,0 +1,342 @@
+{
+  "schema_version": 1,
+  "generated_at": "2026-08-26T10:36:55Z",
+  "modules": [
+    {
+      "slug": "metro",
+      "name": "Metro",
+      "chip": "esp32",
+      "icon_url": "https://raw.githubusercontent.com/mageritsynth/binaries/main/icons/metro.png",
+      "manual_url": "https://magerit.es/cdn/shop/files/Magerit-Metro.pdf",
+      "current": {
+        "version": "v5.2",
+        "url": "https://raw.githubusercontent.com/mageritsynth/binaries/main/metro/metro_v5.2.bin",
+        "sha256": "c0ffb8b67da66638725e977031c304c5dd829c9a002d256ec1fdb507d84896b5",
+        "date": "2026-08-26",
+        "changelog": {
+          "es": "Mejora de lectura en las entradas CV",
+          "en": "CV inputs reading improved"
+        }
+      },
+      "history": [
+        {
+          "version": "v5.1",
+          "url": "https://raw.githubusercontent.com/mageritsynth/binaries/main/metro/metro_v5.1.bin",
+          "sha256": "3732773f8aa016f85fc41b6cce47129ac576e1bf4a6d7be82eac44b4e6cd616b",
+          "date": "2026-08-19",
+          "changelog": {
+            "es": "Mejora de errores puntuales y de rendimiento.",
+            "en": "Minor bug fixes and performance improvements."
+          }
+        },
+        {
+          "version": "v5.0",
+          "url": "https://raw.githubusercontent.com/mageritsynth/binaries/main/metro/metro_v5.0.bin",
+          "sha256": "87e4a8ffdad3462130dee2a3afc0eff3de837adeaaa44d3f7774801a5cf944f2",
+          "date": "2026-07-10",
+          "changelog": {
+            "es": "Aumentada la frecuencia de muestreo a 48 kHz, nuevos algoritmos de instrumentos y mejoras de rendimiento, estabilidad y calidad de audio.",
+            "en": "Increased sample rate to 48 kHz, new instrument algorithms, and improved performance, stability, and audio quality."
+          }
+        },
+        {
+          "version": "v4.4",
+          "url": "https://raw.githubusercontent.com/mageritsynth/binaries/main/metro/metro_v4.4.bin",
+          "sha256": "6f7028382e07f6292bb08703bdfde5fba077029ca0dd956b16354545e6d8f998",
+          "date": "2026-03-05",
+          "changelog": {
+            "es": "Añadido el modo Trigger Accent, corregido el destino ALL en el canal de trigger, y mejoras en el volumen, el paneo y el efecto de eco.",
+            "en": "Added Trigger Accent mode, fixed ALL destination in trigger channel, and improved volume, pan, and echo FX."
+          }
+        },
+        {
+          "version": "v4.3",
+          "url": "https://raw.githubusercontent.com/mageritsynth/binaries/main/metro/metro_v4.3.bin",
+          "sha256": "1efdf17cf4eae29e0e69e6a17ba71f467868ddfe107be0d435300c2894ec6fb9",
+          "date": "2025-07-11",
+          "changelog": {
+            "es": "Añadido el modo Trigger Accent, corregido el destino ALL en el canal de trigger, y mejoras en el volumen, el paneo y el efecto de eco.",
+            "en": "Added Trigger Accent mode, fixed ALL destination in trigger channel, and improved volume, pan, and echo FX."
+          }
+        },
+        {
+          "version": "v4.2",
+          "url": "https://raw.githubusercontent.com/mageritsynth/binaries/main/metro/metro_v4.2.bin",
+          "sha256": "cacdf9107305f06acb98ef5eab67577a6d4d42727aad6668c57fb7b509cbf91e",
+          "date": "2024-11-07",
+          "changelog": {
+            "es": "Correcciones puntuales de rendimiento.",
+            "en": "Minor performance fixes."
+          }
+        },
+        {
+          "version": "v4.1",
+          "url": "https://raw.githubusercontent.com/mageritsynth/binaries/main/metro/metro_v4.1.bin",
+          "sha256": "15b2e1739a43b9d573f041e6daab9ce2b8bd0cefb0d273180ad703acb77fd061",
+          "date": "2024-10-09",
+          "changelog": {
+            "es": "Correcciones puntuales de rendimiento.",
+            "en": "Minor performance fixes."
+          }
+        }
+      ]
+    },
+    {
+      "slug": "laniakea",
+      "name": "Laniakea",
+      "chip": "esp32",
+      "icon_url": "https://raw.githubusercontent.com/mageritsynth/binaries/main/icons/laniakea.png",
+      "manual_url": "https://magerit.es/cdn/shop/files/Magerit-Laniakea.pdf",
+      "current": {
+        "version": "v3.6",
+        "url": "https://raw.githubusercontent.com/mageritsynth/binaries/main/laniakea/laniakea_v3.6.bin",
+        "sha256": "64f8ee24f19ee6085594ccb9a6d7697e7f90b7d325b4615a65651ff8a452e328",
+        "date": "2026-08-26",
+        "changelog": {
+          "es": "Mejora en la calibración y los umbrales de normalización de jack",
+          "en": "Improvements to jack calibration and normalisation thresholds"
+        }
+      },
+      "history": [
+        {
+          "version": "v3.5",
+          "url": "https://raw.githubusercontent.com/mageritsynth/binaries/main/laniakea/laniakea_v3.5.bin",
+          "sha256": "99fc6c435a8aa5f43bfa06457c8e04406493a0dee8e62bac706a976ff50bcbe4",
+          "date": "2026-08-26",
+          "changelog": {
+            "es": "Precisión de calibración V/OCT mejorada. Lectura de umbrales de normalización de CV más fiable. Añadida robustez frente a lecturas fantasma por UART.",
+            "en": "Improved V/OCT calibration accuracy. More reliable CV normalization threshold reading. Added robustness against phantom UART readings."
+          }
+        },
+        {
+          "version": "v3.4",
+          "url": "https://raw.githubusercontent.com/mageritsynth/binaries/main/laniakea/laniakea_v3.4.bin",
+          "sha256": "58f22cb8e99668624cf7e3d87d15bfe2a622f01ec3dde3d2cc8692fb032d9aae",
+          "date": "2026-08-18",
+          "changelog": {
+            "es": "Mapa de particiones corregido",
+            "en": "Partitions map corrected"
+          }
+        },
+        {
+          "version": "v3.3",
+          "url": "https://raw.githubusercontent.com/mageritsynth/binaries/main/laniakea/laniakea_v3.3.bin",
+          "sha256": "1ebfa59c7d8a04eaee2dd59cdbec2ccdbed752a4a8bd1d83efad854540079768",
+          "date": "2026-07-22",
+          "changelog": {
+            "es": "Corregido el reseteo de fábrica.",
+            "en": "Fixed factory reset."
+          }
+        },
+        {
+          "version": "v3.2",
+          "url": "https://raw.githubusercontent.com/mageritsynth/binaries/main/laniakea/laniakea_v3.2.bin",
+          "sha256": "0a4ef2cdd191f94a584ea0ce14a840bc47d6c49cf6b82dabd3165ab61344f572",
+          "date": "2026-06-23",
+          "changelog": {
+            "es": "Pequeñas mejoras de errores.",
+            "en": "Minor bug fixes."
+          }
+        },
+        {
+          "version": "v3.1",
+          "url": "https://raw.githubusercontent.com/mageritsynth/binaries/main/laniakea/laniakea_v3.1.bin",
+          "sha256": "b2b40ccc50b28c46f8d4088df76ab81271e1c64c2b4595a2c2f79d47c699099f",
+          "date": "2026-05-24",
+          "changelog": {
+            "es": "Pequeñas mejoras de errores.",
+            "en": "Minor bug fixes."
+          }
+        },
+        {
+          "version": "v3.0",
+          "url": "https://raw.githubusercontent.com/mageritsynth/binaries/main/laniakea/laniakea_v3.0.bin",
+          "sha256": "3f6d3d71583d4e115dbc207cba6f47e031801c3d99785a3cf0b800dac81d8a4b",
+          "date": "2026-04-21",
+          "changelog": {
+            "es": "Sample rate aumentado de 44,1kHz a 48kHz. Mejora del rendimiento general. Mejora de la lectura V/OCT. Mayor precisión del trigger y problema de trigger “drops” eliminado. Estabilidad del volumen mejorada. Motor de cuerdas y resonador reescritos. Resonador ampliado de 12 a 32 modos. Nuevo overdrive más potente.",
+            "en": "Sample rate increased from 44.1kHz to 48kHz. Improved overall performance. Better V/OCT tracking. Higher trigger accuracy and trigger “short drops” issue fixed. Improved volume stability. String engine and resonator rewritten. Resonator expanded from 12 to 32 modes. New, more powerful overdrive."
+          }
+        },
+        {
+          "version": "v2.8",
+          "url": "https://raw.githubusercontent.com/mageritsynth/binaries/main/laniakea/laniakea_v2.8.bin",
+          "sha256": "890454239fa19269c40b8a4373e99392370d94988d47a96059ecba5c645ad580",
+          "date": "2025-10-29",
+          "changelog": {
+            "es": "Oscilador aditivo mejorado.",
+            "en": "Improved additive oscillator."
+          }
+        },
+        {
+          "version": "v2.2",
+          "url": "https://raw.githubusercontent.com/mageritsynth/binaries/main/laniakea/laniakea_v2.2.bin",
+          "sha256": "040851b4fa86a3f96b7c67ab897e0381dc12392a0467776123585204b4da8a1e",
+          "date": "2024-10-09",
+          "changelog": {
+            "es": "Bug de ruidos esporádicos (con el exciter conectado) solucionado. Añadido un Fade-in de audio durante el inicio.",
+            "en": "Short dropouts bug (while exciter patched) fixed. Startup audio fade-in implemented."
+          }
+        }
+      ]
+    },
+    {
+      "slug": "kairos",
+      "name": "Kairos",
+      "chip": "esp32s3",
+      "icon_url": "https://raw.githubusercontent.com/mageritsynth/binaries/main/icons/kairos.png",
+      "manual_url": "https://magerit.es/cdn/shop/files/Magerit-Kairos.pdf",
+      "current": {
+        "version": "v3.0",
+        "url": "https://raw.githubusercontent.com/mageritsynth/binaries/main/kairos/kairos_v3.0.bin",
+        "sha256": "e99da8fc8ab409b1baafd4b4ca4c4f030b72d094759022ae68c996de0a7c2428",
+        "date": "2026-08-26",
+        "changelog": {
+          "es": "Cálculos de coma flotante, rediseñando todas las formas de onda desde cero (incluyendo curvas Bezier) para que lo que veas en pantalla coincida exactamente con el audio. Se ha añadido automatización total de parámetros, funciones de cruce (Mask, S&H adaptativo) corregidas y una nueva etapa de ganancia tras el filtro para mejorar el rango dinámico. El nuevo motor MIDI mejora la polifonía, la estabilidad en directo y añade un arpegiador sincronizado por substeps. Añadida recepción de reloj externo (vía CV y MIDI) y opción de transmisión de reloj MIDI externo (Master). Estrenamos un sistema de gestión con hasta 64 proyectos donde se puede guardar, cargar y renombrarlos. Se ha sustituido el guardado convencional por un menú de Patches, que permite almacenar ideas de canales específicos para usarlas en cualquier otro proyecto. El navegador de proyectos ahora hace que alternar entre diferentes canciones sea rápido y sencillo. Es posible transferir estos proyectos hacia o desde el ordenador con el Magerit Web Updater. Ratios y Offset: Nuevos modos de actualización de ratio y gestión de offset durante silencios. Otras correcciones de errores.",
+          "en": "Floating-point calculations, redesigning all waveforms from scratch (including Bezier curves) so that what you see on screen matches the audio exactly. Full parameter automation has been added, along with corrected crossover functions (Mask, adaptive S&H) and a new gain stage after the filter to improve dynamic range. The new MIDI engine improves polyphony, live stability, and adds an arpeggiator synchronized by substeps. Added external clock reception (via CV and MIDI) and an option for external MIDI clock transmission (Master). We are launching a management system with up to 64 projects where you can save, load, and rename them. Conventional saving has been replaced by a Patches menu, which allows you to store ideas from specific channels to use in any other project. The project browser now makes switching between different songs quick and easy. It is possible to transfer these projects to or from the computer using the Magerit Web Updater. New ratio update modes and offset handling during silences. Other bug fixes."
+        }
+      },
+      "history": [
+        {
+          "version": "v2.8",
+          "url": "https://raw.githubusercontent.com/mageritsynth/binaries/main/kairos/kairos_v2.8.bin",
+          "sha256": "2f8867088176362f0fc4c364862b01553f336daa4a2549e2406cbe096f6c3006",
+          "date": "2026-04-07",
+          "changelog": {
+            "es": "Pequeñas mejoras de errores.",
+            "en": "Minor bug fixes."
+          }
+        },
+        {
+          "version": "v2.7",
+          "url": "https://raw.githubusercontent.com/mageritsynth/binaries/main/kairos/kairos_v2.7.bin",
+          "sha256": "07cc81588421f35c655305db942ce2d20eb579686eabdd2c0035524c73274d08",
+          "date": "2026-01-18",
+          "changelog": {
+            "es": "Pequeñas mejoras de errores.",
+            "en": "Minor bug fixes."
+          }
+        },
+        {
+          "version": "v2.6",
+          "url": "https://raw.githubusercontent.com/mageritsynth/binaries/main/kairos/kairos_v2.6.bin",
+          "sha256": "1cd83877c1e5c7c110f3eaf369c94ec3b522ea616556ecf6f921cf035f1a51df",
+          "date": "2025-12-29",
+          "changelog": {
+            "es": "Pequeñas mejoras de errores.",
+            "en": "Minor bug fixes."
+          }
+        },
+        {
+          "version": "v2.5",
+          "url": "https://raw.githubusercontent.com/mageritsynth/binaries/main/kairos/kairos_v2.5.bin",
+          "sha256": "f2c1ade308c152607708cc2810843f6695b5b8c70a539ae14fae0cb694362919",
+          "date": "2025-11-07",
+          "changelog": {
+            "es": "Secuenciador euclideano mejorado. Aleatorización de secuencias opcional. Otras correcciones de errores puntuales.",
+            "en": "Euclidean sequencer improvements. Optional random sequences. Minor bug fixes."
+          }
+        },
+        {
+          "version": "v2.4",
+          "url": "https://raw.githubusercontent.com/mageritsynth/binaries/main/kairos/kairos_v2.4.bin",
+          "sha256": "f1ec04b1801da96fd3c5711032cd65b2e9784d3ebf607a65ec4df63aaaf730c0",
+          "date": "2025-10-29",
+          "changelog": {
+            "es": "Pequeñas mejoras de errores.",
+            "en": "Minor bug fixes."
+          }
+        },
+        {
+          "version": "v2.3",
+          "url": "https://raw.githubusercontent.com/mageritsynth/binaries/main/kairos/kairos_v2.3.bin",
+          "sha256": "0d0cbb0db5356c5beee35cc11bcbcbfc5af0b1c20c72de18e72311e11c6a7549",
+          "date": "2025-10-13",
+          "changelog": {
+            "es": "Corregida la desincronización del reloj MIDI. Ahora se guarda el estado del osciloscopio (ON/OFF).",
+            "en": "Fixed MIDI clock drift. Oscilloscope mode state (ON / OFF) is now saved."
+          }
+        },
+        {
+          "version": "v2.2",
+          "url": "https://raw.githubusercontent.com/mageritsynth/binaries/main/kairos/kairos_v2.2.bin",
+          "sha256": "0ac642fd47e36480e8a13609c9bdd76311665393ee95354f42b0d6a0a9698a17",
+          "date": "2025-09-04",
+          "changelog": {
+            "es": "Pequeñas mejoras de errores.",
+            "en": "Minor bug fixes."
+          }
+        },
+        {
+          "version": "v2.1",
+          "url": "https://raw.githubusercontent.com/mageritsynth/binaries/main/kairos/kairos_v2.1.bin",
+          "sha256": "4998cb2dda01c661817f68908c2c24d806b23b3acec013d6e993ac7257431bf3",
+          "date": "2025-07-15",
+          "changelog": {
+            "es": "Nuevo modo de polaridad de onda: invertido (INV). Mejoradas las formas Random y Random Tri. Correcciones puntuales del secuenciador.",
+            "en": "New polarity mode: inverted (INV). Improved Random and Random Tri generators. Minor bug fixes."
+          }
+        },
+        {
+          "version": "v2.0",
+          "url": "https://raw.githubusercontent.com/mageritsynth/binaries/main/kairos/kairos_v2.0.bin",
+          "sha256": "00fa61c1a2a445baaefe3b2f7d0304f7c89e3494a5040fe338a69ce47fb49c42",
+          "date": "2025-05-20",
+          "changelog": {
+            "es": "Se amplía el rango de tempo global de 1 a 480 BPM y el rango de ratios, que ahora abarca desde /256 hasta x16. Las figuras rítmicas permiten silenciar individualmente corcheas, tresillos y semicorcheas, facilitando la creación de ritmos más complejos gracias al editor de notas mejorado, que permite ajustar notas individuales, gates y silencios. Se ha incorporado un nuevo arpegiador más robusto y preciso, junto con motores MIDI y polifónicos mejorados para un rendimiento en tiempo real más eficiente. El cuantizador y el calibrador han sido reescritos y mejorados en precisión. Se añade modo jack global para un control más completo del secuenciador. El sistema de automatización en el menú secuenciador se ha reescrito para mejorar su eficiencia en tiempo real. Nuevos modos Auto Reset y Auto Silencio, y enlaces entre canales ahora más prácticos y fáciles de usar. Se incorpora una nueva forma de onda exponencial. El reloj MIDI ya no limita el ratio. Nuevo salvapantallas configurable para proteger la pantalla. Correcciones de errores en el secuenciador, la interfaz de usuario y el guardado de patrones. Otras mejoras generales en el rendimiento.",
+            "en": "Expanded global tempo range from 1 to 480 BPM, and updated ratio range now spans from /256 to x16. Rhythmic figures can now mute individual eighth notes, triplets, and sixteenth notes, allowing for more complex patterns thanks to an enhanced note editor with per-step control of notes, gates, and silences. A new, more robust and precise arpeggiator has been added, along with improved MIDI and polyphonic engines for more efficient real-time performance. The quantizer and calibration system have been rewritten for greater accuracy. A new global jack mode has been introduced for broader sequencer control. The automation system in the sequencer menu has been rewritten to improve real-time efficiency. New Auto Reset and Auto Silence modes, and easier, more practical channel linking. An exponential waveform has been added. MIDI clock no longer limits the ratio. New configurable screensaver to protect the display. Bug fixes in the sequencer, UI, and pattern saving. Other overall performance improvements."
+          }
+        },
+        {
+          "version": "v1.5",
+          "url": "https://raw.githubusercontent.com/mageritsynth/binaries/main/kairos/kairos_v1.5.bin",
+          "sha256": "cfe0922d936e38635066f9ccbcbe4dd99a6c6acf884d92d65cbe7c1c153a2cb7",
+          "date": "2025-01-17",
+          "changelog": {
+            "es": "Patrones hasta 64 pasos. Nuevo sistema de guardado.",
+            "en": "Patterns up to 64 steps. New filesystem core."
+          }
+        },
+        {
+          "version": "v1.3",
+          "url": "https://raw.githubusercontent.com/mageritsynth/binaries/main/kairos/kairos_v1.3.bin",
+          "sha256": "0811842a476dbd4bdd96c867d06c5d1516e0e361b680844a156f0823cdd5ec19",
+          "date": "2025-10-11",
+          "changelog": {
+            "es": "Ahora, ON/OFF mutea la salida y no pausa la secuencia. Errores en la lectura MIDI corregidos. Nuevo modo de enlaces. Nuevo reseteo de parámetros en el menu SHAPE con el encoder PEQUEÑO.",
+            "en": "Now, the ON/OFF button mutes the output instead of pausing the sequence. Errors in MIDI reading have been fixed. There is a new mode for linking channels. Additionally, parameters in SHAPE menu can be reset using the SMALL encoder."
+          }
+        }
+      ]
+    },
+    {
+      "slug": "kolora",
+      "name": "Kolora",
+      "chip": "rp2040",
+      "icon_url": "https://raw.githubusercontent.com/mageritsynth/binaries/main/icons/kolora.png",
+      "manual_url": "https://magerit.es/cdn/shop/files/Magerit-Kolora.pdf",
+      "current": {
+        "version": "v1.1",
+        "url": "https://raw.githubusercontent.com/mageritsynth/binaries/main/kolora/kolora_v1.1.bin",
+        "sha256": "b61ad5c70f947241a6db761acf93a2bee96b1579951be00f01bb98f70c51fe25",
+        "date": "2026-04-21",
+        "changelog": {
+          "es": "Oscilador digital y lectura V/OCT mejorados.",
+          "en": "Improved digital oscillator and V/OCT tracking"
+        }
+      },
+      "history": [
+        {
+          "version": "v1.0",
+          "url": "https://raw.githubusercontent.com/mageritsynth/binaries/main/kolora/kolora_v1.0.bin",
+          "sha256": "883d7a5e7b2704525592ed470fd9cd24a9d3aaf75d1141a370c87625d0fdfee3",
+          "date": "2024-11-07",
+          "changelog": {
+            "es": "Lanzamiento del firmware y del módulo.",
+            "en": "Firmware & module release."
+          }
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,82 @@
+{
+  "v1.0": {
+    "date": "2023-06-10",
+    "es": "Lanzamiento del firmware y del módulo.",
+    "en": "Firmware & module release."
+  },
+  "v1.1": {
+    "date": "2023-06-22",
+    "es": "Ratios disponibles con el reloj MIDI. Ahora es posible rotar la pantalla 180 grados.",
+    "en": "Ratios available with MIDI clock. Now it is possible to flip the screen 180 degrees."
+  },
+  "v1.2": {
+    "date": "2023-06-27",
+    "es": "Nuevos modos de polaridad.",
+    "en": "New polarity modes."
+  },
+  "v1.3": {
+    "date": "2023-07-09",
+    "es": "Ahora, ON/OFF mutea la salida y no pausa la secuencia. Errores en la lectura MIDI corregidos. Nuevo modo de enlaces. Nuevo reseteo de parámetros en el menu SHAPE con el encoder PEQUEÑO.",
+    "en": "Now, the ON/OFF button mutes the output instead of pausing the sequence. Errors in MIDI reading have been fixed. There is a new mode for linking channels. Additionally, parameters in SHAPE menu can be reset using the SMALL encoder."
+  },
+  "v1.4": {
+    "date": "2024-04-07",
+    "es": "Reestructuración del código. Se reseteará de fábrica el módulo.",
+    "en": "Code restructuring. Factory reset will be applied."
+  },
+  "v1.5": {
+    "date": "2024-07-19",
+    "es": "Patrones hasta 64 pasos. Nuevo sistema de guardado.",
+    "en": "Patterns up to 64 steps. New filesystem core."
+  },
+  "v2.0": {
+    "date": "2025-05-20",
+    "es": "Se amplía el rango de tempo global de 1 a 480 BPM y el rango de ratios, que ahora abarca desde /256 hasta x16. Las figuras rítmicas permiten silenciar individualmente corcheas, tresillos y semicorcheas, facilitando la creación de ritmos más complejos gracias al editor de notas mejorado, que permite ajustar notas individuales, gates y silencios. Se ha incorporado un nuevo arpegiador más robusto y preciso, junto con motores MIDI y polifónicos mejorados para un rendimiento en tiempo real más eficiente. El cuantizador y el calibrador han sido reescritos y mejorados en precisión. Se añade modo jack global para un control más completo del secuenciador. El sistema de automatización en el menú secuenciador se ha reescrito para mejorar su eficiencia en tiempo real. Nuevos modos Auto Reset y Auto Silencio, y enlaces entre canales ahora más prácticos y fáciles de usar. Se incorpora una nueva forma de onda exponencial. El reloj MIDI ya no limita el ratio. Nuevo salvapantallas configurable para proteger la pantalla. Correcciones de errores en el secuenciador, la interfaz de usuario y el guardado de patrones. Otras mejoras generales en el rendimiento.",
+    "en": "Expanded global tempo range from 1 to 480 BPM, and updated ratio range now spans from /256 to x16. Rhythmic figures can now mute individual eighth notes, triplets, and sixteenth notes, allowing for more complex patterns thanks to an enhanced note editor with per-step control of notes, gates, and silences. A new, more robust and precise arpeggiator has been added, along with improved MIDI and polyphonic engines for more efficient real-time performance. The quantizer and calibration system have been rewritten for greater accuracy. A new global jack mode has been introduced for broader sequencer control. The automation system in the sequencer menu has been rewritten to improve real-time efficiency. New Auto Reset and Auto Silence modes, and easier, more practical channel linking. An exponential waveform has been added. MIDI clock no longer limits the ratio. New configurable screensaver to protect the display. Bug fixes in the sequencer, UI, and pattern saving. Other overall performance improvements."
+  },
+  "v2.1": {
+    "date": "2025-07-12",
+    "es": "Nuevo modo de polaridad de onda: invertido (INV). Mejoradas las formas Random y Random Tri. Correcciones puntuales del secuenciador.",
+    "en": "New polarity mode: inverted (INV). Improved Random and Random Tri generators. Minor bug fixes."
+  },
+  "v2.3": {
+    "date": "2025-10-07",
+    "es": "Corregida la desincronización del reloj MIDI. Ahora se guarda el estado del osciloscopio (ON/OFF).",
+    "en": "Fixed MIDI clock drift. Oscilloscope mode state (ON / OFF) is now saved."
+  },
+  "v2.2": {
+    "date": "2025-09-04",
+    "es": "Pequeñas mejoras de errores.",
+    "en": "Minor bug fixes."
+  },
+  "v2.4": {
+    "date": "2025-10-29",
+    "es": "Pequeñas mejoras de errores.",
+    "en": "Minor bug fixes."
+  },
+  "v2.5": {
+    "date": "2025-11-07",
+    "es": "Secuenciador euclideano mejorado. Aleatorización de secuencias opcional. Otras correcciones de errores puntuales.",
+    "en": "Euclidean sequencer improvements. Optional random sequences. Minor bug fixes."
+  },
+  "v2.6": {
+    "date": "2025-12-29",
+    "es": "Pequeñas mejoras de errores.",
+    "en": "Minor bug fixes."
+  },
+  "v2.7": {
+    "date": "2026-01-18",
+    "es": "Pequeñas mejoras de errores.",
+    "en": "Minor bug fixes."
+  },
+  "v2.8": {
+    "date": "2026-04-07",
+    "es": "Pequeñas mejoras de errores.",
+    "en": "Minor bug fixes."
+  },
+  "v3.0": {
+    "date": "2026-05-08",
+    "es": "Cálculos de coma flotante, rediseñando todas las formas de onda desde cero (incluyendo curvas Bezier) para que lo que veas en pantalla coincida exactamente con el audio. Se ha añadido automatización total de parámetros, funciones de cruce (Mask, S&H adaptativo) corregidas y una nueva etapa de ganancia tras el filtro para mejorar el rango dinámico. El nuevo motor MIDI mejora la polifonía, la estabilidad en directo y añade un arpegiador sincronizado por substeps. Añadida recepción de reloj externo (vía CV y MIDI) y opción de transmisión de reloj MIDI externo (Master). Estrenamos un sistema de gestión con hasta 64 proyectos donde se puede guardar, cargar y renombrarlos. Se ha sustituido el guardado convencional por un menú de Patches, que permite almacenar ideas de canales específicos para usarlas en cualquier otro proyecto. El navegador de proyectos ahora hace que alternar entre diferentes canciones sea rápido y sencillo. Es posible transferir estos proyectos hacia o desde el ordenador con el Magerit Web Updater. Ratios y Offset: Nuevos modos de actualización de ratio y gestión de offset durante silencios. Otras correcciones de errores.",
+    "en": "Floating-point calculations, redesigning all waveforms from scratch (including Bezier curves) so that what you see on screen matches the audio exactly. Full parameter automation has been added, along with corrected crossover functions (Mask, adaptive S&H) and a new gain stage after the filter to improve dynamic range. The new MIDI engine improves polyphony, live stability, and adds an arpeggiator synchronized by substeps. Added external clock reception (via CV and MIDI) and an option for external MIDI clock transmission (Master). We are launching a management system with up to 64 projects where you can save, load, and rename them. Conventional saving has been replaced by a Patches menu, which allows you to store ideas from specific channels to use in any other project. The project browser now makes switching between different songs quick and easy. It is possible to transfer these projects to or from the computer using the Magerit Web Updater. New ratio update modes and offset handling during silences. Other bug fixes."
+  }
+}

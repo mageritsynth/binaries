@@ -1,0 +1,5 @@
+generar_binarios.py
+generar_manifest.py
+.DS_Store 
+binaries.code-workspace
+.vscode
