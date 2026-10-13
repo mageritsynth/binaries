@@ -1,18 +1,18 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-08-26T10:36:55Z",
+  "generated_at": "2026-10-13T21:55:59Z",
   "modules": [
     {
       "slug": "metro",
       "name": "Metro",
       "chip": "esp32",
       "icon_url": "https://raw.githubusercontent.com/mageritsynth/binaries/main/icons/metro.png",
-      "manual_url": "https://magerit.es/cdn/shop/files/Magerit-Metro.pdf",
+      "manual_url": "https://magerit.es/files/Magerit-Metro.pdf",
       "current": {
         "version": "v5.2",
         "url": "https://raw.githubusercontent.com/mageritsynth/binaries/main/metro/metro_v5.2.bin",
         "sha256": "c0ffb8b67da66638725e977031c304c5dd829c9a002d256ec1fdb507d84896b5",
-        "date": "2026-08-26",
+        "date": "2026-10-13",
         "changelog": {
           "es": "Mejora de lectura en las entradas CV",
           "en": "CV inputs reading improved"
@@ -86,12 +86,12 @@
       "name": "Laniakea",
       "chip": "esp32",
       "icon_url": "https://raw.githubusercontent.com/mageritsynth/binaries/main/icons/laniakea.png",
-      "manual_url": "https://magerit.es/cdn/shop/files/Magerit-Laniakea.pdf",
+      "manual_url": "https://magerit.es/files/Magerit-Laniakea.pdf",
       "current": {
         "version": "v3.6",
         "url": "https://raw.githubusercontent.com/mageritsynth/binaries/main/laniakea/laniakea_v3.6.bin",
         "sha256": "64f8ee24f19ee6085594ccb9a6d7697e7f90b7d325b4615a65651ff8a452e328",
-        "date": "2026-08-26",
+        "date": "2026-10-13",
         "changelog": {
           "es": "Mejora en la calibración y los umbrales de normalización de jack",
           "en": "Improvements to jack calibration and normalisation thresholds"
@@ -185,12 +185,12 @@
       "name": "Kairos",
       "chip": "esp32s3",
       "icon_url": "https://raw.githubusercontent.com/mageritsynth/binaries/main/icons/kairos.png",
-      "manual_url": "https://magerit.es/cdn/shop/files/Magerit-Kairos.pdf",
+      "manual_url": "https://magerit.es/files/Magerit-Kairos.pdf",
       "current": {
         "version": "v3.0",
         "url": "https://raw.githubusercontent.com/mageritsynth/binaries/main/kairos/kairos_v3.0.bin",
-        "sha256": "e99da8fc8ab409b1baafd4b4ca4c4f030b72d094759022ae68c996de0a7c2428",
-        "date": "2026-08-26",
+        "sha256": "072f44d8206184d8131c705ec8a60c30cb85da8685062ca69cc43776c5b3f814",
+        "date": "2026-10-13",
         "changelog": {
           "es": "Cálculos de coma flotante, rediseñando todas las formas de onda desde cero (incluyendo curvas Bezier) para que lo que veas en pantalla coincida exactamente con el audio. Se ha añadido automatización total de parámetros, funciones de cruce (Mask, S&H adaptativo) corregidas y una nueva etapa de ganancia tras el filtro para mejorar el rango dinámico. El nuevo motor MIDI mejora la polifonía, la estabilidad en directo y añade un arpegiador sincronizado por substeps. Añadida recepción de reloj externo (vía CV y MIDI) y opción de transmisión de reloj MIDI externo (Master). Estrenamos un sistema de gestión con hasta 64 proyectos donde se puede guardar, cargar y renombrarlos. Se ha sustituido el guardado convencional por un menú de Patches, que permite almacenar ideas de canales específicos para usarlas en cualquier otro proyecto. El navegador de proyectos ahora hace que alternar entre diferentes canciones sea rápido y sencillo. Es posible transferir estos proyectos hacia o desde el ordenador con el Magerit Web Updater. Ratios y Offset: Nuevos modos de actualización de ratio y gestión de offset durante silencios. Otras correcciones de errores.",
           "en": "Floating-point calculations, redesigning all waveforms from scratch (including Bezier curves) so that what you see on screen matches the audio exactly. Full parameter automation has been added, along with corrected crossover functions (Mask, adaptive S&H) and a new gain stage after the filter to improve dynamic range. The new MIDI engine improves polyphony, live stability, and adds an arpeggiator synchronized by substeps. Added external clock reception (via CV and MIDI) and an option for external MIDI clock transmission (Master). We are launching a management system with up to 64 projects where you can save, load, and rename them. Conventional saving has been replaced by a Patches menu, which allows you to store ideas from specific channels to use in any other project. The project browser now makes switching between different songs quick and easy. It is possible to transfer these projects to or from the computer using the Magerit Web Updater. New ratio update modes and offset handling during silences. Other bug fixes."
@@ -314,18 +314,28 @@
       "name": "Kolora",
       "chip": "rp2040",
       "icon_url": "https://raw.githubusercontent.com/mageritsynth/binaries/main/icons/kolora.png",
-      "manual_url": "https://magerit.es/cdn/shop/files/Magerit-Kolora.pdf",
+      "manual_url": "https://magerit.es/files/Magerit-Kolora.pdf",
       "current": {
-        "version": "v1.1",
-        "url": "https://raw.githubusercontent.com/mageritsynth/binaries/main/kolora/kolora_v1.1.bin",
-        "sha256": "b61ad5c70f947241a6db761acf93a2bee96b1579951be00f01bb98f70c51fe25",
-        "date": "2026-04-21",
+        "version": "v1.2",
+        "url": "https://raw.githubusercontent.com/mageritsynth/binaries/main/kolora/kolora_v1.2.bin",
+        "sha256": "d5ba2924aac90729a23efe8457e2ac2687b200e958a7f80ac566d96164cca192",
+        "date": "2026-10-13",
         "changelog": {
-          "es": "Oscilador digital y lectura V/OCT mejorados.",
-          "en": "Improved digital oscillator and V/OCT tracking"
+          "es": "Oscilador digital aumentado a 48khz. Mejoras de rendimiento. Correcciones puntuales de errores.",
+          "en": "Digital oscillator upgraded to 48 kHz. Performance improvements. Minor bug fixes."
         }
       },
       "history": [
+        {
+          "version": "v1.1",
+          "url": "https://raw.githubusercontent.com/mageritsynth/binaries/main/kolora/kolora_v1.1.bin",
+          "sha256": "b61ad5c70f947241a6db761acf93a2bee96b1579951be00f01bb98f70c51fe25",
+          "date": "2026-04-21",
+          "changelog": {
+            "es": "Oscilador digital y lectura V/OCT mejorados.",
+            "en": "Improved digital oscillator and V/OCT tracking"
+          }
+        },
         {
           "version": "v1.0",
           "url": "https://raw.githubusercontent.com/mageritsynth/binaries/main/kolora/kolora_v1.0.bin",
