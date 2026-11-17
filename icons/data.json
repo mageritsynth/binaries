@@ -9,6 +9,10 @@
         "chip" : "esp32",
         "manual_url" : "https://magerit.es/files/Magerit-Laniakea.pdf"
     },
+    "laniakea_pro" : {
+        "name" : "Laniakea Pro",
+        "chip" : "esp32s3"
+    },
     "kairos" : {
         "name" : "Kairos",
         "chip" : "esp32s3",

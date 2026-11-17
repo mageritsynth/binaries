@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-10-13T21:55:59Z",
+  "generated_at": "2026-11-17T16:18:11Z",
   "modules": [
     {
       "slug": "metro",
@@ -181,6 +181,24 @@
       ]
     },
     {
+      "slug": "laniakea_pro",
+      "name": "Laniakea Pro",
+      "chip": "esp32s3",
+      "icon_url": null,
+      "manual_url": null,
+      "current": {
+        "version": "v1.0",
+        "url": "https://raw.githubusercontent.com/mageritsynth/binaries/main/laniakea_pro/laniakea_pro_v1.0.bin",
+        "sha256": "e94380e1cc23dbcadd3f401b665cee13984aa9c8f94bb7a532f24bbc6019da41",
+        "date": "2026-11-17",
+        "changelog": {
+          "es": "Nuevo lanzamiento",
+          "en": "New release"
+        }
+      },
+      "history": []
+    },
+    {
       "slug": "kairos",
       "name": "Kairos",
       "chip": "esp32s3",
@@ -189,7 +207,7 @@
       "current": {
         "version": "v3.0",
         "url": "https://raw.githubusercontent.com/mageritsynth/binaries/main/kairos/kairos_v3.0.bin",
-        "sha256": "072f44d8206184d8131c705ec8a60c30cb85da8685062ca69cc43776c5b3f814",
+        "sha256": "f60d59b2171be8b6e1f380255568195287b536813463d812776f5fbc039783a6",
         "date": "2026-10-13",
         "changelog": {
           "es": "Cálculos de coma flotante, rediseñando todas las formas de onda desde cero (incluyendo curvas Bezier) para que lo que veas en pantalla coincida exactamente con el audio. Se ha añadido automatización total de parámetros, funciones de cruce (Mask, S&H adaptativo) corregidas y una nueva etapa de ganancia tras el filtro para mejorar el rango dinámico. El nuevo motor MIDI mejora la polifonía, la estabilidad en directo y añade un arpegiador sincronizado por substeps. Añadida recepción de reloj externo (vía CV y MIDI) y opción de transmisión de reloj MIDI externo (Master). Estrenamos un sistema de gestión con hasta 64 proyectos donde se puede guardar, cargar y renombrarlos. Se ha sustituido el guardado convencional por un menú de Patches, que permite almacenar ideas de canales específicos para usarlas en cualquier otro proyecto. El navegador de proyectos ahora hace que alternar entre diferentes canciones sea rápido y sencillo. Es posible transferir estos proyectos hacia o desde el ordenador con el Magerit Web Updater. Ratios y Offset: Nuevos modos de actualización de ratio y gestión de offset durante silencios. Otras correcciones de errores.",

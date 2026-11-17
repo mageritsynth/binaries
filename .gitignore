@@ -3,3 +3,4 @@ generar_manifest.py
 .DS_Store 
 binaries.code-workspace
 .vscode
+log
