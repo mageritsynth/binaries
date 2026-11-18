@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-11-17T16:18:11Z",
+  "generated_at": "2026-11-18T15:06:33Z",
   "modules": [
     {
       "slug": "metro",
@@ -12,7 +12,7 @@
         "version": "v5.2",
         "url": "https://raw.githubusercontent.com/mageritsynth/binaries/main/metro/metro_v5.2.bin",
         "sha256": "c0ffb8b67da66638725e977031c304c5dd829c9a002d256ec1fdb507d84896b5",
-        "date": "2026-10-13",
+        "date": "2026-11-18",
         "changelog": {
           "es": "Mejora de lectura en las entradas CV",
           "en": "CV inputs reading improved"
@@ -88,16 +88,26 @@
       "icon_url": "https://raw.githubusercontent.com/mageritsynth/binaries/main/icons/laniakea.png",
       "manual_url": "https://magerit.es/files/Magerit-Laniakea.pdf",
       "current": {
-        "version": "v3.6",
-        "url": "https://raw.githubusercontent.com/mageritsynth/binaries/main/laniakea/laniakea_v3.6.bin",
-        "sha256": "64f8ee24f19ee6085594ccb9a6d7697e7f90b7d325b4615a65651ff8a452e328",
-        "date": "2026-10-13",
+        "version": "v3.7",
+        "url": "https://raw.githubusercontent.com/mageritsynth/binaries/main/laniakea/laniakea_v3.7.bin",
+        "sha256": "936f9fd502e5e350cc23982bee64c8b6cfeb5dbd3efcbf4dd76fca5585de1b2d",
+        "date": "2026-11-18",
         "changelog": {
-          "es": "Mejora en la calibración y los umbrales de normalización de jack",
-          "en": "Improvements to jack calibration and normalisation thresholds"
+          "es": "Oscilador aditivo mejorado",
+          "en": "Improved additive oscillator"
         }
       },
       "history": [
+        {
+          "version": "v3.6",
+          "url": "https://raw.githubusercontent.com/mageritsynth/binaries/main/laniakea/laniakea_v3.6.bin",
+          "sha256": "64f8ee24f19ee6085594ccb9a6d7697e7f90b7d325b4615a65651ff8a452e328",
+          "date": "2026-08-26",
+          "changelog": {
+            "es": "Mejora en la calibración y los umbrales de normalización de jack",
+            "en": "Improvements to jack calibration and normalisation thresholds"
+          }
+        },
         {
           "version": "v3.5",
           "url": "https://raw.githubusercontent.com/mageritsynth/binaries/main/laniakea/laniakea_v3.5.bin",
@@ -190,7 +200,7 @@
         "version": "v1.0",
         "url": "https://raw.githubusercontent.com/mageritsynth/binaries/main/laniakea_pro/laniakea_pro_v1.0.bin",
         "sha256": "e94380e1cc23dbcadd3f401b665cee13984aa9c8f94bb7a532f24bbc6019da41",
-        "date": "2026-11-17",
+        "date": "2026-11-18",
         "changelog": {
           "es": "Nuevo lanzamiento",
           "en": "New release"
@@ -208,7 +218,7 @@
         "version": "v3.0",
         "url": "https://raw.githubusercontent.com/mageritsynth/binaries/main/kairos/kairos_v3.0.bin",
         "sha256": "f60d59b2171be8b6e1f380255568195287b536813463d812776f5fbc039783a6",
-        "date": "2026-10-13",
+        "date": "2026-07-10",
         "changelog": {
           "es": "Cálculos de coma flotante, rediseñando todas las formas de onda desde cero (incluyendo curvas Bezier) para que lo que veas en pantalla coincida exactamente con el audio. Se ha añadido automatización total de parámetros, funciones de cruce (Mask, S&H adaptativo) corregidas y una nueva etapa de ganancia tras el filtro para mejorar el rango dinámico. El nuevo motor MIDI mejora la polifonía, la estabilidad en directo y añade un arpegiador sincronizado por substeps. Añadida recepción de reloj externo (vía CV y MIDI) y opción de transmisión de reloj MIDI externo (Master). Estrenamos un sistema de gestión con hasta 64 proyectos donde se puede guardar, cargar y renombrarlos. Se ha sustituido el guardado convencional por un menú de Patches, que permite almacenar ideas de canales específicos para usarlas en cualquier otro proyecto. El navegador de proyectos ahora hace que alternar entre diferentes canciones sea rápido y sencillo. Es posible transferir estos proyectos hacia o desde el ordenador con el Magerit Web Updater. Ratios y Offset: Nuevos modos de actualización de ratio y gestión de offset durante silencios. Otras correcciones de errores.",
           "en": "Floating-point calculations, redesigning all waveforms from scratch (including Bezier curves) so that what you see on screen matches the audio exactly. Full parameter automation has been added, along with corrected crossover functions (Mask, adaptive S&H) and a new gain stage after the filter to improve dynamic range. The new MIDI engine improves polyphony, live stability, and adds an arpeggiator synchronized by substeps. Added external clock reception (via CV and MIDI) and an option for external MIDI clock transmission (Master). We are launching a management system with up to 64 projects where you can save, load, and rename them. Conventional saving has been replaced by a Patches menu, which allows you to store ideas from specific channels to use in any other project. The project browser now makes switching between different songs quick and easy. It is possible to transfer these projects to or from the computer using the Magerit Web Updater. New ratio update modes and offset handling during silences. Other bug fixes."

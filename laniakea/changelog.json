@@ -98,5 +98,10 @@
     "date": "2026-08-26",
     "es": "Mejora en la calibración y los umbrales de normalización de jack",
     "en": "Improvements to jack calibration and normalisation thresholds"
+  },
+  "v3.7": {
+    "date": "2026-11-18",
+    "es": "Oscilador aditivo mejorado",
+    "en": "Improved additive oscillator"
   }
 }
